@@ -1,0 +1,12 @@
+id 
+document.getElementById('email');
+name
+document.getElementsByName('email')[0];​
+class
+document.getElementsByClassName('inputtext _55r1 inputtext _1kbt inputtext _1kbt')[0];
+tagname
+document.getElementsByTagName('input')[13];
+css selector
+document.querySelector('#email');
+xpath
+document.evaluate("//input[@id='email']",document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue;
