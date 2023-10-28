@@ -21,6 +21,4 @@ describe('dropdown',()=>{
         cy.get('#select2-billing_country-container')
         .should('have.text','India')
     })
-
-
 })
