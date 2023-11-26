@@ -11,10 +11,6 @@ describe('Frames',()=>{
             iframe.clear().type('Welcome {selectAll}');
             cy.get("[aria-label='Bold']").click();
 
-
-        
-
-
     })
 
     it.skip('approach 3 - by using cypress iframe plugin',()=>{
